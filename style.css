@@ -1,0 +1,344 @@
+.prime-color{
+    background-color: #b32f2f;
+    color: #fff;
+}
+
+/* Programming logo color */
+.cColor{
+    color:#a1a1a1;
+}
+.fa-js, .javaScriptColor{
+    color:#F1DE4F;
+}
+.fa-node-js{
+    color:#54B689;
+}
+.fa-npm{
+    color:#BB443E;
+}
+.fa-react{
+    color:#62D4FA;
+}
+.fa-angular{
+    color:#CA3327;
+}
+.fa-vuejs{
+    color:#64B687;
+}
+.fa-leaf{
+    color:#4DB33D; /*Mongodb*/
+}
+.fa-html5{
+    color:#DE6E3C;
+}
+.fa-css3-alt{
+    color:#53A7DC;
+}
+.fa-php{
+    color:#777BAF;
+}
+.fa-fire{
+    color:#dd4814; /*codeigniter*/
+}
+.fa-laravel{
+    color: #ff2d20;
+}
+.fa-database{
+    color: #4479a1; /*mysql*/
+}
+
+.header{
+    width: 280px;
+    position: fixed;
+    left: 0;
+    top:0;
+    height: 100vh;
+    overflow-y: auto;
+}
+::-webkit-scrollbar{
+    width:5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:#cc4444;
+    border-radius: 5px;
+}
+
+.header-name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 25px auto;
+}
+.proPic{
+    border-radius: 50%;
+    width: 170px;
+    margin: 0 auto;
+    display: block;
+}
+.intro{
+    text-align: center;
+    margin:15px;
+    font-size: 14px;
+}
+
+.header-social{
+    list-style: none;
+}
+.header-social li{
+    float: left;
+    margin:7px;
+}
+.header-social li a{
+    color: #b32f2f;
+    background-color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+    border-radius: 100%;;
+}
+.header-social li a i{
+    line-height: 28px;
+}
+
+.hrSpan{
+    display: inline-block;
+    position: relative;
+    height: 1px;
+    width: 80%;
+    margin: 15px auto;
+    left: 10%;
+    background-color: #cc4444;
+}
+
+.menu{
+    list-style: none;
+}
+.menu li{
+    margin-top: 20px;
+}
+.menu li a{
+    color: #fff;
+    font-weight: bold;
+    
+}
+.menu li a i{
+    font-size: 14px;
+    width: 20px;
+    text-align: center;
+    margin-right: 5px;
+    transition: 300ms;
+}
+.menu li a:hover{
+    text-decoration: none;
+    color: #ffc3c3;
+}
+
+.hireMe{
+    display: block;
+    width: 40%;
+    text-align: center;
+    margin: 25px auto;
+    padding: 7px 10px;
+    background-color: #cc4444;
+    color: #fff;
+    transition: 300ms;
+    border-radius: 4px;
+}
+.hireMe:hover{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+/* Main-wrapper */
+.main-wrapper{
+    margin-left:280px;
+}
+
+.main-wrapper-top{
+    padding: 50px;
+    background-color:#fafafa;
+}
+.main-wrapper-top h1{
+    font-weight: bold;
+}
+.main-wrapper-top h4{
+    font-weight: 300;
+    font-size: 22px;
+    color: grey;
+}
+
+.main-wrapper-btn{
+    font-size: 14px;
+    font-weight: bold;
+}
+.main-wrapper-btn a{
+    padding: 7px 15px;
+    border-radius: 3px;
+    margin-right: 5px;
+    color:#fff;
+}
+.main-wrapper-btn a:hover{
+    text-decoration: none;
+    color:#fff;
+}
+.greyBtn{
+    background-color: #333;
+}
+
+
+.proBigImage{
+    background-image: url('assets/img/proPic2.jpg');
+    width: 270px;
+    height: 260px;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    margin:0 auto;
+    -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(20%);
+}
+
+
+/* What I do */
+.whatIDo{
+    padding: 50px;
+}
+.whatIDo h2{
+    font-weight: bold;
+    position: relative;
+    margin-left: 20px;
+}
+.whatIDo h2::before{
+    content: '';
+    height: 100%;
+    width:5px;
+    background-color: #b32f2f;
+    position: absolute;
+    left: -20px;
+}
+
+.whatIDo .row .col-md-3{
+    margin-top: 20px;
+}
+.progLogo{
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.progLogo li{
+    float: left;
+}
+.progLogo li i{
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.progHead{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.progPera{
+    font-size: 14px;
+    text-align: left;
+}
+
+
+#whatIDoHidden{
+    display: none;
+}
+#whatIDoHidden .row{
+    margin:0;
+}
+
+/*Basic button*/
+.showMoreWhatIDo{
+    padding: 7px 15px;
+    border-radius: 3px;
+    margin-right: 5px;
+    display: block;
+    margin: 20px auto;
+    width: 180px;
+    text-align: center;
+    border: 0;
+}
+.showMoreWhatIDo:hover{
+    text-decoration: none;
+    color:#fff;
+    cursor: pointer;
+}
+.showMoreWhatIDo:visited,.showMoreWhatIDo:focus{
+    outline: 0;
+    border: 0;
+}
+
+/*gitProjects*/
+.gitProjects{
+    padding: 50px;
+    background-color: #fafafa;
+}
+.gitProjects h2{
+    font-weight: bold;
+    position: relative;
+    margin-left: 20px;
+}
+.gitProjects h2::before{
+    content: '';
+    height: 100%;
+    width:5px;
+    background-color: #b32f2f;
+    position: absolute;
+    left: -20px;
+}
+
+.gitProjects .row .col-md-3{
+    margin-top: 20px;
+}
+
+.gitRepo{
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 15px 15px 0 15px;
+    margin-bottom:30px;
+}
+
+.gitRepo h4{
+    font-size:16px;
+}
+
+.gitRepo h4 a{
+    color:#b32f2f;
+    font-weight: bold;
+}
+
+.gitRepo h4 a:hover{
+    color:#b32f2f;
+    text-decoration: none;
+}
+
+.gitRepo h4 i{
+    color:#838383;
+    margin-right:5px;
+}
+
+.gitRepo p{
+    font-size:12px;
+}
+
+.gitRepo .lang{
+    font-size: 12px;
+}
+
+.gitRepo .lang i{
+    margin-right:5px;
+    font-size:10px;
+}
+
+.gitRepo .lang i.fa-star{
+    margin-left:15px;
+    margin-right:2px ;
+}
